@@ -1,0 +1,19 @@
+// write the code for printing the  even and odd number from the given Array
+class EvenOdd{
+public static void main(String args[])
+{
+ int []arr={5,10,12,15,25};
+ for(int i=0;i<arr.length;i++)
+ {
+ if(arr[i]%2==0)
+ {
+ System.out.println(arr[i]+"Number is even");
+ }
+ else
+ {
+ System.out.println(arr[i]+"Number is odd");
+ }
+ }
+ }
+ }
+ 
